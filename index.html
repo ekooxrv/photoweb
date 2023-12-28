@@ -7,46 +7,76 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Dancing+Script:wght@400;500;600;700&family=Pacifico&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Silkscreen&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Dancing+Script:wght@400;500;600;700&family=Pacifico&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Silkscreen&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
     rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="./dist/output.css">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
+<style>
+  body {
+    font-family: 'Space Mono', monospace;
+  }
+</style>
 
-<body class="overflow-x-hidden">
+<body class="">
   <section id="landing-page">
     <div class="nav h-32 flex flex-col border-b-[1px] shadow-md justify-center items-center">
       <div class="flex-justify-center">
-        <h1 class="font-semibold text-4xl mb-8 mt-4 uppercase font-[alkatra] tracking-wide" data-aos="zoom-in"
+        <h1 class="font-semibold text-4xl mb-8 mt-4 uppercase tracking-wide" data-aos="zoom-in"
           data-aos-duration="1000">Photograph</h1>
       </div>
       <div class="link">
-        <ul class="flex gap-20 font-[raleway]" data-aos="zoom-in" data-aos-duration="1000">
-          <li><a href="#" class="hover:border-b-[2px] transition-all duration-300">About</a></li>
+        <ul class="flex gap-20" data-aos="zoom-in" data-aos-duration="1000">
+          <li><a href="#about" class="hover:border-b-[2px] transition-all duration-300">About</a></li>
           <li><a href="#explorer" class="hover:border-b-[2px] transition-all duration-300">Explorer</a></li>
-          <li><a href="#" class="hover:border-b-[2px] transition-all duration-300">Contact</a></li>
+          <li><a href="#contact" class="hover:border-b-[2px] transition-all duration-300">Contact</a></li>
         </ul>
       </div>
     </div>
     <div class="px-7 pt-16 pb-2 md:px-14">
-      <img src="./image/3.jpg" alt="" data-aos="fade-in" data-aos-duration="1000">
+      <img src="./image/6.jpg" alt="" data-aos="fade-in" data-aos-duration="1000">
     </div>
-    <div class="flex-justify-center mx-auto h-32 w-[1px] bg-black"></div>
-    <div class="mt-10 mb-10 px-20 flex justify-center text-center font-normal font-[raleway] tracking-wide">
-      <h1 class="text-xl md:text-3xl" data-aos="fade-up" data-aos-duration="1000">A tribute to visionary artists and
+    <div class="mt-10 mb-10 px-20 flex justify-center text-center font-light tracking-wide">
+      <h1 class="text-xl md:text-2xl" data-aos="zoom-in" data-aos-duration="1000">A tribute to visionary artists and
         designers who've shaped our world with their disruptive creativity.</h1>
+    </div>
+  </section>
+  <div class="px-7">
+    <div class="w-full h-[1px] bg-gray-400"></div>
+  </div>
+  <section id="about" class="pt-7 mb-10">
+    <div class="px-7">
+      <h1 class="pb-4 ml-6 md:ml-10 text-2xl font-bold tracking-wide" data-aos="fade-in" data-aos-duration="1000">About</h1>
+    </div>
+    <div class="flex flex-col-reverse gap-8 md:grid  md:grid-cols-2 px-10 py-16 md:px-24">
+      <div class="text-about text-center font-normal tracking-wide my-auto" data-aos="fade-up" data-aos-duration="1500">
+        <h1 class="font-semibold font-bold uppercase text-lg pb-4">Traveler, Photographer, creative</h1>
+        <p class="pb-2">I spent my childhood snapping away on point-and-shoot cameras and making goofy videos with
+          friends, so when I stumbled across YouTube during a summer in college I couldn’t resist creating a channel. I
+          found myself spending all of my spare time making videos. After a couple of years of struggling to choose a
+          major in school, I decided to follow my interests and get a degree in broadcasting.</p>
+
+        <p class="pb-2">By the time I graduated, my YouTube channel had grown and blogging had started to become a
+          “thing.” While the safe choice would have been to apply for traditional broadcasting jobs, I decided to roll
+          the dice and see what I could accomplish as an online creator. I’ve never looked back.</p>
+
+        <p class="pb-2">In January 2018, I made it my New Year’s Resolution to begin solo traveling. I’ve since traveled
+          alone all over the world, sharing my experiences through photographs and cinematic videos. I hope to encourage
+          other women to embrace the adventure of exploring by themselves.</p>
+      </div>
+      <img src="./image/about.jpg" alt="me" data-aos="fade-down" data-aos-duration="1500">
     </div>
   </section>
   <section id="explorer">
     <div class="px-7 pt-10">
       <div class="w-full h-[1px] bg-gray-400"></div>
-      <h1 class="pt-7 pb-4 text-2xl font-bold font-[raleway] ml-10">Explore</h1>
+      <h1 class="pt-7 pb-4 text-2xl font-bold ml-6 md:ml-10" data-aos="fade-in" data-aos-duration="1000">Explore</h1>
     </div>
     <div class="flex flex-col flex-col-reverse md:grid md:grid-cols-2 px-14 pt-16 gap-8 ">
       <div class="text-left my-auto text-center" data-aos="fade-in" data-aos-duration="1000">
-        <h1 class="text-xl font-[raleway]">As you explore our products, reimagine your space with our visualizer.</h1>
+        <h1 class="text-xl">As you explore our products, reimagine your space with our visualizer.</h1>
       </div>
       <div class="photo-right grid grid-cols-2 gap-4">
         <img src="./image/hands.jpg" alt="" class="h-auto w-full rounded-sm shadow-md mt-7 md:mt-11" data-aos="fade-up"
@@ -55,78 +85,55 @@
           data-aos-duration="1500">
       </div>
     </div>
-    <div class=" container mx-auto mt-16 flex justify-evenly h-[1px] w-full bg-slate-950">
-      <div class="h-[100px] w-[0.5px] bg-gray-600"></div>
-      <div class="h-[40px] w-[0.5px] bg-gray-600"></div>
-      <div class="h-[100px] w-[0.5px] bg-gray-600"></div>
+    <div class="flex flex-col flex-col-reverse gap-4 px-14 pt-24 md:grid md:grid-cols-3">
+      <div>
+        <img src="./image/portrait-1.jpg" alt="" class="rounded-lg" data-aos="fade-up" data-aos-duration="1500">
+      </div>
+      <div>
+        <img src="./image/portrait-2.jpg" alt="" class="rounded-lg" data-aos="zoom-out" data-aos-duration="1500">
+      </div>
+      <div class="text-right mx-auto my-auto">
+        <h1 class="text-normal tracking-wider text-2xl" data-aos="fade-up" data-aos-duration="1000">Portrait</h1>
+      </div>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-40 px-10 md:px-20" role="status">
-      <div>
-        <img class="h-auto max-w-full rounded-lg" src="./image/3.jpg" alt="" data-aos="fade-up" data-aos-offset="300"
-          data-aos-easing="ease-in-sine" data-aos-duration="1000">
-        <h1 class="text-center tracking-wide text-xl font-light italic font-[raleway] mt-14 mb-10 md:mt-44"
-          data-aos="zoom-in" data-aos-duration="1000">"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia,
-          natus."</h1>
+    <div class="px-14 pt-24">
+      <div class="text-center">
+        <h1 class="text-normal tracking-wider text-2xl pb-10" data-aos="fade-down" data-aos-duration="1000">Landscape</h1>
       </div>
-      <div>
-        <img class="h-auto max-w-full rounded-lg" src="./image/4.jpg" alt="" data-aos="fade-in" data-aos-offset="300"
-          data-aos-easing="ease-in-sine" data-aos-duration="1000">
-      </div>
-      <div>
-        <img class="h-auto max-w-full rounded-lg" src="./image/1.jpg" alt="" data-aos="fade-in" data-aos-offset="300"
-          data-aos-easing="ease-in-sine" data-aos-duration="1000">
-      </div>
-      <div>
-        <img class="h-auto max-w-full rounded-lg" src="./image/6.jpg" alt="" data-aos="fade-up" data-aos-offset="300"
-          data-aos-easing="ease-in-sine" data-aos-duration="1000">
-        <h1 class="text-center tracking-wide text-xl font-light italic font-[raleway] mt-14 mb-10 md:mt-56"
-          data-aos="zoom-in" data-aos-duration="1000">"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia,
-          natus."</h1>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div>
+          <img src="./image/ls1.jpg" alt="" class="rounded-lg md:mt-[100px]" data-aos="fade-up"
+            data-aos-duration="1500">
+        </div>
+        <div>
+          <img src="./image/ls2.jpg" alt="" class="rounded-lg" data-aos="fade-in" data-aos-duration="1500">
+        </div>
+        <div>
+          <img src="./image/ls3.jpg" alt="" class="rounded-lg md:-mt-[100px]" data-aos="fade-down"
+            data-aos-duration="1500">
+        </div>
       </div>
     </div>
   </section>
-  <section id="footer mt-12">
-  <footer class="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
-      <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="#"
-            class="hover:underline">Deepsy™</a>. All Rights Reserved.
-        </span>
-        <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
-          <li>
-            <a href="#" class="hover:underline me-4 md:me-6">About</a>
-          </li>
-          <li>
-            <a href="#" class="hover:underline">Contact</a>
-          </li>
-        </ul>
+  <section id="contact" class="pt-20 px-10 md:px-24">
+    <div class="flex flex-col justify-center">
+      <h1 class="text-center text-xl uppercase tracking-wide pb-10">INTERESTED IN COLLABORATING?</h1>
+      <h1 class="text-center text-sm tracking-wide pb-5">I have 10+ years of experience working with brands and I’m
+        always interested in getting creative to bring a client’s vision to life. Get in touch at:</h1>
+      <h1 class="text-center text-xl uppercase tracking-wide pb-10">ekooxrv@ekooxrv.com</h1>
+      <div
+        class="h-16 w-56 border-[1px] border-black mx-auto bg-[#fafafa] hover:bg-[#212121] hover:text-white transition-all duration-200 ease-in-out">
+        <a href="#"
+          class="uppercase text-sm flex justify-center text-center pt-[20px] tracking-wide hover:text-white">work with
+          me</a>
       </div>
-    </footer>
+    </div>
   </section>
-  
-
-<div id="sticky-banner" tabindex="-1" class="fixed top-0 start-0 z-50 flex justify-between w-full p-4 border-b border-gray-200 bg-gray-50 dark:bg-gray-700 dark:border-gray-600">
-  <div class="flex items-center mx-auto">
-      <p class="flex items-center text-sm font-normal text-gray-500 dark:text-gray-400">
-          <span class="inline-flex p-1 me-3 bg-gray-200 rounded-full dark:bg-gray-600 w-6 h-6 items-center justify-center flex-shrink-0">
-              <svg class="w-3 h-3 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 19">
-                  <path d="M15 1.943v12.114a1 1 0 0 1-1.581.814L8 11V5l5.419-3.871A1 1 0 0 1 15 1.943ZM7 4H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2v5a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2V4ZM4 17v-5h1v5H4ZM16 5.183v5.634a2.984 2.984 0 0 0 0-5.634Z"/>
-              </svg>
-              <span class="sr-only">Light bulb</span>
-          </span>
-          <span>Sabar web masih dalam proses building <a href="#" class="inline font-medium text-blue-600 underline dark:text-blue-500 underline-offset-2 decoration-600 dark:decoration-500 decoration-solid hover:no-underline">.</a></span>
-      </p>
-  </div>
-  <div class="flex items-center">
-      <button data-dismiss-target="#sticky-banner" type="button" class="flex-shrink-0 inline-flex justify-center w-7 h-7 items-center text-gray-400 hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 dark:hover:bg-gray-600 dark:hover:text-white">
-          <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
-          </svg>
-          <span class="sr-only">Close banner</span>
-      </button>
-  </div>
-</div>
-
-
+  <section id="footer" class="mt-12">
+    <div class=" h-10 w-full bg[#fafafa] flex justify-center border-[1px]">
+      <h1 class="text-center font-bold text-xs my-auto">© 2023 Deepsy. All Rights Reserved.</h1>
+    </div>
+  </section>
 </body>
 <script>
   AOS.init();
